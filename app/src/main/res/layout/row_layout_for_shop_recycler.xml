@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90sp"
+    android:background="#1D87E7"
+    android:gravity="center"
+    android:id="@+id/layoutId"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:id="@+id/textview1Id"
+        android:text="Raja Luxe"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="15sp"
+        android:id="@+id/textview2Id"
+        android:textColor="@color/black"
+        android:text="Raja Luxe"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:id="@+id/textview3Id"
+        android:gravity="start"
+        android:text="Raja Luxe"></TextView>
+
+</LinearLayout>
